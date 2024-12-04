@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/6f144a2d6c.js" crossorigin="anonymous"></script>
+    <title>Contacto</title>
+
+    <link rel="stylesheet" href="css/Contacto.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/script.js"></script>
+    <style>
+        .disclaimer {display: none;}
+    </style>
+</head>
+<body>
+
+    <!--Header - menu-->
+    <header>
+
+        <div class="header-content">
+
+            <div class="logo">
+                <h1>Arquilabs<b>Corp</b></h1>
+            </div>
+
+            <div class="menu" id="show-menu">
+
+                <nav>
+                    <ul>
+                        <li><a href="index.html"> <i class="fas fa-home"> </i> Inicio</a></li>
+                        <li><a href="https://www.sumerlabs.com/catalogo/arquilabscorp-andahaddad25g" target="_blank"> <i class="fab fa-youtube"></i> Tienda</a></li>
+                        <li><a href="Sobre nosotros.html"> <i class="fas fa-file-alt"></i> Sobre nosotros</a></li>
+                        <li class="menu-selected"><a href="#" class="text-menu-selected"> <i class="fas fa-headset"></i> Contacto</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+        </div>
+
+        <div id="icon-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <!--Portada-->
+
+    <div class="container-all" id="move-content">
+
+    
+        <section class="form_wrap">
+
+            <section class="cantact_info">
+                <section class="info_title">
+                    <span class="fa fa-user-circle"></span>
+                    <h2>INFORMACIÓN<br>DE CONTACTO</h2>
+                </section>
+                <section class="info_items">
+                    <p><span class="fa fa-envelope"></span> arquilabscorp@gmail.com</p>
+                    <p><span class="fa fa-mobile"></span> +57(300) 657-2811</p>
+                </section>
+            </section>
+    
+            <form action="enviar.php" method="post" class="form_contact">
+                <h2>Envia un mensaje</h2>
+                <div class="user_info">
+                    <label for="names">Nombres *</label>
+                    <input type="text" id="names" name="nombre" required>
+    
+                    <label for="phone">Telefono / Celular</label>
+                    <input type="text" id="phone" name="telefono">
+    
+                    <label for="email">Correo electronico *</label>
+                    <input type="text" id="email" name="correo" required>
+    
+                    <label for="mensaje">Mensaje *</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+    
+                    <input type="submit" value="Enviar Mensaje" id="btnSend">
+                </div>
+            </form>
+        </section>
+    
+        <!--footer - pie de pagina-->
+    
+        <div class="container-footer">	
+    
+            <footer>
+            
+                <div class="redes-footer">
+                    <a href="#"><i class="fa-brands fa-facebook-f icon-redes-footer"></i></a>
+                    <a href="https://www.youtube.com/channel/UCf_aPkkh3LRBT-I2w5IdP7w"><i class="fa-brands fa-youtube icon-redes-footer"></i></i></a>
+                    <a href="https://instagram.com/arqui_labs?utm_medium=copy_link"><i class="fa-brands fa-instagram icon-redes-footer"></i></a>
+                </div>
+    
+                <hr>
+                <h4>© 2020 Arqui_labsCorp - Todos los Derechos Reservados</h4>
+    
+            </footer>
+        
+        </div>
+
+</div>
+<script src="js/script2.js"></script>
+
+</body>
+</html>
